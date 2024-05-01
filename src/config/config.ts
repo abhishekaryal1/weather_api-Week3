@@ -4,7 +4,7 @@ const algodToken = "a".repeat(64);
 const server: string ="http:/localhost";
 const port:string = "4001";
 
-const mnemonic: string = "push brave joke either basic punch fragile where bottom example mistake lake knee skull head more merry gap school arch gift friend certain abandon dad"
+const mnemonic: string = "occur warm purity age double damp rifle foster chicken drink candy all goose width atom license unit pink exhibit label north empower sort about disagree"
 
 export function getClient(): algosdk.Algodv2 {
     let client = new algosdk.Algodv2(algodToken, server, port);
